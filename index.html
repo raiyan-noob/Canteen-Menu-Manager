@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canteen Menu Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>🍽️ Canteen Menu Manager</h1>
+            <p class="subtitle">Organize your daily options with ease</p>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Pre-built Menu Selection -->
+            <section class="input-section">
+                <h2>🍽️ Select Menu</h2>
+                <div id="premenus" class="button-grid" style="gap: 10px; margin-bottom: 20px;">
+                </div>
+            </section>
+
+            <!-- Display Section -->
+            <section class="display-section">
+                <div class="display-card">
+                    <h2>📋 Current Menu</h2>
+                    <div id="menuDisplay" class="menu-display">
+                        <p class="empty-message">Menu is empty. Add an item to get started!</p>
+                    </div>
+                </div>
+            <div class="display-actions">
+                <button id="clearBtn" class="btn btn-warning">Clear All</button>
+            </div>
+        </section>
+
+            <!-- Total Amount -->
+            <section class="total-section">
+                <div class="total-card">
+                    <h2>💰 Total Bill</h2>
+                    <p id="totalAmount" class="total-display">Total: Tk.0</p>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Canteen Menu Manager © 2026</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
